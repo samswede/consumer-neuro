@@ -14,7 +14,6 @@ import { IBM_Plex_Sans } from 'next/font/google';
 
 // Components
 import { NavBarMenu } from '@/components/shared/navbar/NavBarMenu';
-import { FooterDemo } from "@/components/shared/footer/FooterDemo";
 
 import { cn } from "@/lib/utils";
 
@@ -71,7 +70,7 @@ export default async function RootLayout({
           
             {children}
           
-          <FooterDemo />
+          
         </body>
       </PHProvider>
     </html>

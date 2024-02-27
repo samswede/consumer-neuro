@@ -7,27 +7,22 @@ export const heroBlock: Template = {
     fields: [
       
       {
+        label: 'Header',
+        name: 'header',
         type: 'rich-text',
-        label: 'Message',
-        name: 'message',
       },
   
       {
+        
+        label: 'Hero Image',
+        name: 'heroImage',
         type: 'image',
-        label: 'Background Video (MP4 <30MB)',
-        name: 'backgroundVideo',
-      },
-  
-      {
-        type: 'image',
-        label: 'Background Fallback Image',
-        name: 'backgroundFallbackImage',
       },
   
   
       {
-        name: "links",
         label: "Links",
+        name: "buttons",
         type: "object",
         list: true,
   
@@ -47,6 +42,12 @@ export const heroBlock: Template = {
             options: ["light", "dark"],
           },
         ],
+      },
+
+      {
+        label: 'Description',
+        name: 'description',
+        type: 'rich-text',
       },
   
     ],
