@@ -2,14 +2,7 @@ import { defineConfig } from "tinacms";
 
 import globalCollection from "./collections/global.collection";
 
-import aboutCollection from "./collections/about.collection";
-
 import homeCollection from "./collections/home.collection";
-
-import tripupcomingCollection from "./collections/tripupcoming.collection";
-import trippastCollection from "./collections/trippast.collection";
-
-import impressumCollection from "./collections/impressum.collection";
 
 
 // Your hosting provider likely exposes this as an environment variable
@@ -44,15 +37,8 @@ export default defineConfig({
 
       globalCollection,
 
-      aboutCollection,
-      
       homeCollection,
       
-      tripupcomingCollection,
-
-      trippastCollection,
-
-      impressumCollection,
 
     ],
   },

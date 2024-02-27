@@ -1,5 +1,5 @@
 ---
-theme: dark
+theme: light
 sheetGoogleForm:
   buttonText: Google Form
   embeddedFormURL: >-
